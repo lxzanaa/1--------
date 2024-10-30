@@ -8,6 +8,10 @@ body {
     font-family: 'Gilroy', sans-serif;
 } */
 
+a{
+    cursor: pointer;
+}
+
 .btn {
     background-color: #43A548;
 }
@@ -22,4 +26,23 @@ body {
 }
 .mySwiper{
     position: static !important;
+}
+.description:hover > span{
+    color: #327F36;
+}
+.title_2:hover > span{
+    color: #327F36;
+}
+.danix_box:hover > .dannix{
+    color: #327F36;
+}
+.swiper-button-disabled{
+    opacity: 50%;
+}
+img{
+    display: block;
+}
+.footer_link:hover> span {
+    color: #43A548;
+    text-decoration: underline;
 }

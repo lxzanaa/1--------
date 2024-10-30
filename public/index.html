@@ -18,7 +18,7 @@
                 <img src="./img/header_logo.svg" alt="" class="w-full max-w-[40px] max-md:max-w-[40px] object-cover">
                 1С-Товары
             </a>
-            <ul class="ml-auto flex items-center gap-7 lg:gap-[51px] max-[835px]:gap-5 max-md:hidden">
+            <ul class="ml-auto flex items-center gap-7 lg:gap-[51px] max-[835px]:gap-5 max-[800px]:hidden">
                 <li>
                     <a href="#"
                         class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">Как
@@ -44,10 +44,11 @@
                 </li>
             </ul>
             <button style="background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);"
-                class="inline-block hover:opacity-50 transition-all duration-300 ml-[51px] rounded-[1000px] px-5 py-2.5 font-semibold text-[#F7F8F8] text-sm max-[835px]:ml-5 max-md:hidden">
+                class="inline-block hover:opacity-50 transition-all duration-300 ml-[51px] rounded-[1000px] px-5 py-2.5 font-semibold text-[#F7F8F8] text-sm max-[835px]:ml-5 max-[800px]:hidden">
                 Вход
             </button>
-            <button id="hamburger" class="block md:hidden ml-auto hover:opacity-50 transition-all duration-300">
+            <button id="hamburger"
+                class="block min-[800px]:hidden ml-auto hover:opacity-50 transition-all duration-300">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 8.5H21M3 15.5H21" stroke="#2C2B35" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
@@ -56,7 +57,7 @@
         </div>
     </header>
     <div id="responsive_nav_list"
-        class="bg-[#F7F8F8] overscroll-y-auto h-full pb-[265px]  w-full md:hidden transition-all duration-300 pt-20 fixed left-0 -top-[110%] z-30">
+        class="bg-[#F7F8F8] overscroll-y-auto h-full pb-[265px]  w-full min-[800px]:hidden transition-all duration-300 pt-20 fixed left-0 -top-[110%] z-30">
         <div class="w-full flex items-center justify-center flex-col">
             <ul class="flex flex-col items-center gap-[51px]">
                 <li>
@@ -419,7 +420,9 @@
             </div>
         </div>
     </section>
-    <section class="py-[60px]" style="background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);">
+
+    <section class="py-[60px] max-md:hidden"
+        style="background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);">
         <div class="max-w-[1452px] w-full px-[70px] mx-auto relative max-md:hidden">
             <div class="flex justify-between items-center gap-5 mb-10">
                 <h2 class="title">Популярные продукты</h2>
@@ -603,12 +606,16 @@
                                     4 500 руб/мес</p>
                             </div>
                             <ul class="list-disc list-inside pl-5 marker:text-[#838684] mb-5">
-                                <li class="font-normal text-sm leading-5 text-[#838684]">Прогноз спроса с использованием сервера прогнозирования</li>
-                                <li class="font-normal text-sm leading-5 text-[#838684]">Контроль товарных остатков и автоматический заказ товаров</li>
-                                <li class="font-normal text-sm leading-5 text-[#838684]">Анализ работы розничного магазина или сети магазинов</li>
-                                <li class="font-normal text-sm leading-5 text-[#838684]">Рекомендации по управлению ассортиментом (1С-Ритейл Чекер)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Прогноз спроса с использованием
+                                    сервера прогнозирования</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Контроль товарных остатков и
+                                    автоматический заказ товаров</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Анализ работы розничного
+                                    магазина или сети магазинов</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Рекомендации по управлению
+                                    ассортиментом (1С-Ритейл Чекер)</li>
                             </ul>
-                            
+
                             <a href="#"
                                 class="flex items-center justify-end gap-1 font-normal text-sm text-[#43A548] transition-all duration-300 hover:text-[#327F36] ">
                                 Подробнее
@@ -638,6 +645,710 @@
             </div>
         </div>
     </section>
+
+    <section class="pt-[120px] pb-[60px] max-md:pb-16 max-md:pt-0 bg-[#F7F8F8]">
+        <div class="max-w-[1352px] max-lg:flex-col w-full max-md:p-5 mx-auto p-10 flex items-center justify-between gap-5 rounded-[40px]"
+            style="
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px 0px #0000000D;
+            ">
+            <div class="max-w-[646px]">
+                <h2
+                    class="font-semibold text-[26px] max-md:mb-5 max-md:max-w-[295px] max-md:mx-auto text-[#2C2B35] mb-10 max-lg:text-center max-md:text-xl">
+                    Предоставляем техподдержку для наших клиентов
+                </h2>
+                <p
+                    class="font-normal text-base text-[#2C2B35] transition-all duration-300 description max-lg:text-center">
+                    Если у вас возникнут сложности с использованием 1С-Товары, обращайтесь в нашу техподдержку.
+                    Техподдержка работает круглосуточно. Вы можете связаться с нами любыми удобными для Вас способами.
+                    При использовании техпомощи просим соблюдать <span
+                        class="text-[#43A548] transition-all duration-300">правила обращения.</span>
+                </p>
+            </div>
+            <div class="max-w-[477px] max-lg:flex items-center max-md:p-5 flex-col rounded-[40px] p-10"
+                style="background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);">
+                <a class="font-normal text-lg max-md:text-sm text-[#2C2B35] max-md:text-center mb-5 title_2 block">
+                    Вы можете связаться с нами через <span class="text-[#43A548]">1С-Коннект
+                        <span class="text-[#2C2B35]">и</span> 1С-Товары. Поддержка пользователей</span>
+                </a>
+                <div class="flex items-center gap-5 max-md:flex-col justify-between">
+                    <div>
+                        <h4 class="font-normal text-sm text-[#6F7973] mb-2.5">Телефон техподдержки</h4>
+                        <a
+                            class="font-semibold text-xl text-[#43A548] transition-all duration-300 hover:text-[#327F36]">+7-495-111-00-10</a>
+                    </div>
+                    <div>
+                        <h4 class="font-normal text-sm text-[#6F7973] mb-2.5">E-mail техподдержки</h4>
+                        <a
+                            class="font-semibold text-xl text-[#43A548] transition-all duration-300 hover:text-[#327F36]">info@rozn.info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#F7F8F8] pt-[60px] pb-[120px] max-md:pt-0 max-md:pb-16">
+        <div class="max-w-[1352px] w-full mx-auto px-5">
+            <div class="flex items-start max-lg:flex-col gap-10 mb-[120px] max-md:mb-8">
+                <div class="lg:max-w-[636px]">
+                    <h2 class="font-semibold text-[26px] max-md:text-xl text-[#2C2B35] mb-10">Для розничных магазинов и
+                        ресторанов</h2>
+                    <div class="lg:px-[68px] max-lg:flex items-center gap-1.5">
+                        <img src="./img/magazin/img1.png" alt=""
+                            class="max-w-[500px] min-w-[399px] max-lg:min-w-0 w-full ">
+                        <img src="./img/magazin/img2.png" alt=""
+                            class="max-w-[500px] min-w-[399px] max-lg:min-w-0 w-full ">
+                    </div>
+                </div>
+                <div class="lg:max-w-[636px] grid grid-cols-1 gap-5">
+                    <div class="bg-white p-10 rounded-[40px] max-md:p-5 max-md:rounded-[20px]"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <h3 class="font-semibold text-xl max-md:text-base text-[#2C2B35] mb-5">Получайте рекомендации по
+                            управлению
+                            ассортиментом</h3>
+                        <div class="mb-5">
+                            <p class="font-normal text-sm max-md:text-xs text-[#6F7973] mb-5">
+                                Для этого подключите бесплатно новый тариф «1С-Ритейл Чекер».
+                                <br>
+                                <br>
+                                Каждую неделю вам на почту будет приходить письмо с рекомендациями:
+                            </p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за
+                                    пустых полок;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары у вас в избытке, а какие следует отнести к неликвидам;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары стоит пересчитать, чтобы быть уверенным в правильности учета.
+                                </li>
+                            </ul>
+                        </div>
+                        <a href=""
+                            class="flex items-center gap-1 text-[#43A548] hover:text-[#327F36] transition-all duration-300">
+                            Подробнее о 1С-Ритейл Чекер
+                            <div class="w-4">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66669 8H13.3334M13.3334 8L9.33335 4M13.3334 8L9.33335 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white p-10 rounded-[40px] max-md:p-5 max-md:rounded-[20px]"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <h3 class="font-semibold text-xl max-md:text-base text-[#2C2B35] mb-5">Прогнозируйте спрос и
+                            управляйте запасами
+                        </h3>
+                        <p class="font-normal text-sm max-md:text-xs text-[#6F7973] mb-5">
+                            Используйте 1С-Товары для более точного прогноза спроса. 1С-Товары учитывают средние
+                            продажи,
+                            тренды, периоды дефицита товара (пробелы на полках), сезонность спроса, праздники,
+                            распродажи,
+                            акции. <br>
+                            Ежедневно 1С-Товары автоматически проверяют минимальные остатки и своевременно отправляет
+                            заявку
+                            поставщику, используя результаты прогноза. Так вы избежите как дефицита, так и излишков
+                            товара в
+                            магазине.
+                        </p>
+                        <a href=""
+                            class="flex items-center gap-1 text-[#43A548] hover:text-[#327F36] transition-all duration-300">
+                            Подробнее о 1С-Товары
+                            <div class="w-4">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66669 8H13.3334M13.3334 8L9.33335 4M13.3334 8L9.33335 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white p-10 rounded-[40px] max-md:p-5 max-md:rounded-[20px]"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <h3 class="font-semibold text-xl max-md:text-base text-[#2C2B35] mb-5">Планируйте ассортимент
+                            без ошибок</h3>
+                        <p class="font-normal text-sm text-[#6F7973]">
+                            Узнайте, какие товары приносят вам прибыль и всегда должны быть в ассортименте. И, наоборот,
+                            выводите из ассортимента товары с низкой наценкой и оборачиваемостью.
+                        </p>
+                    </div>
+                    <div class="bg-white p-10 rounded-[40px] max-md:p-5 max-md:rounded-[20px]"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <h3 class="font-semibold text-xl max-md:text-base text-[#2C2B35] mb-5">Контролируйте бизнес и
+                            повышайте прибыль
+                        </h3>
+                        <p class="font-normal text-sm max-md:text-xs text-[#6F7973]">
+                            Для этого используйте блок аналитики.
+                            <br>
+                            <br>
+                            Пробуйте разные варианты повышения продаж – новые товары, изменение наценки,
+                            перераспределение
+                            площади. Убедиться в правильности действий помогут отчеты. Блок аналитики доступен через
+                            Интернет и сделан как приборная панель индикаторов деятельности, что позволяет быстро
+                            заметить
+                            изменения.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-start max-lg:flex-col gap-10">
+                <div class="lg:max-w-[636px]">
+                    <h2 class="font-semibold text-[26px] max-md:text-xl text-[#2C2B35] mb-10">Для розничных магазинов и
+                        ресторанов</h2>
+                    <div class="lg:px-[68px] max-lg:flex px-[67px] items-center w-full">
+                        <img src="./img/magazin/img3.png" alt=""
+                            class="max-w-[500px] min-w-[399px] mx-auto max-lg:min-w-0 w-full ">
+                    </div>
+                </div>
+                <div class="lg:max-w-[636px] grid grid-cols-1 gap-5">
+                    <div class="bg-white p-10 rounded-[40px] max-md:p-5 max-md:rounded-[20px]"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <h3 class="font-semibold text-xl max-md:text-base text-[#2C2B35] mb-5">Планируйте поставки
+                            товаров в собственные или арендованные торговые точки
+                        </h3>
+                        <p class="font-normal text-sm max-md:text-xs text-[#6F7973] mb-5">
+                            Получайте с помощью 1С-Товары текущие остатки товаров в магазинах и правильно определяйте
+                            размер поставок. Система прогноза спроса, встроенная в 1С-Товары, поможет обеспечить
+                            постоянное наличие на полках магазинов ходового товара и позволит избежать «оверстока» на
+                            ваших складах.
+                            <br>
+                            <br>
+                            Для такого сценария работы предусмотрен специальный выгодный тариф «1С-Товары 300».
+                        </p>
+                        <a href=""
+                            class="flex items-center gap-1 text-[#43A548] hover:text-[#327F36] transition-all duration-300">
+                            Подробнее о 1С-Товары 300
+                            <div class="w-4">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66669 8H13.3334M13.3334 8L9.33335 4M13.3334 8L9.33335 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white p-10 rounded-[40px] max-md:p-5 max-md:rounded-[20px]"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <h3 class="font-semibold text-xl max-md:text-base text-[#2C2B35] mb-5">Повышайте эффективность
+                            обработки полученных заказов
+                        </h3>
+                        <p class="font-normal text-sm max-md:text-xs text-[#6F7973] mb-5">
+                            1С-Товары позволяют синхронизировать наименования товаров у поставщика и магазина, что дает
+                            возможность автоматически загружать заявки от розничных магазинов в учетную систему и не
+                            тратить много времени на сопоставление номенклатуры.
+                        </p>
+                        <a href=""
+                            class="flex items-center gap-1 text-[#43A548] hover:text-[#327F36] transition-all duration-300">
+                            Подробнее о 1С-Товары
+                            <div class="w-4">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66669 8H13.3334M13.3334 8L9.33335 4M13.3334 8L9.33335 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-[120px] px-5">
+        <div class="max-w-[1352px] max-md:flex-col max-md:p-5 max-md:rounded-[20px] w-full mx-auto p-[60px] rounded-[40px] flex items-start justify-between gap-5"
+            style="background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);">
+            <div class="md:max-w-[541px] w-full">
+                <h2 class="font-semibold text-2xl text-[#F7F8F8] mb-5">Хотите бесплатную консультацию? <br> Оставляйте
+                    заявку</h2>
+                <p class="font-normal text-xl max-md:text-base text-[#F7F8F8] max-w-[504px]">Оставляйте заявку и наши
+                    менеджеры свяжутся с Вами в ближайшее время </p>
+            </div>
+            <form class="md:max-w-[574px] w-full grid grid-cols-1 gap-5">
+                <div class="grid grid-cols-1">
+                    <label for="" class="font-normal text-base text-[#F7F8F8] mb-2">Ваше имя</label>
+                    <input type="text" placeholder="Ваше имя" required
+                        class="outline-none py-2.5 pl-5 bg-[#FFFFFF] rounded-[20px] placeholder:text-[#6F7973] placeholder:text-base placeholder:font-normal">
+                </div>
+                <div class="grid grid-cols-1">
+                    <label for="" class="font-normal text-base text-[#F7F8F8] mb-2">Ваш телефон</label>
+                    <input type="text" placeholder="Ваш телефон" required
+                        class="outline-none py-2.5 pl-5 bg-[#FFFFFF] rounded-[20px] placeholder:text-[#6F7973] placeholder:text-base placeholder:font-normal">
+                </div>
+                <div class="grid grid-cols-1">
+                    <label for="" class="font-normal text-base text-[#F7F8F8] mb-2">Ваш e-mail</label>
+                    <input type="text" placeholder="Ваш e-mail" required
+                        class="outline-none py-2.5 pl-5 bg-[#FFFFFF] rounded-[20px] placeholder:text-[#6F7973] placeholder:text-base placeholder:font-normal">
+                </div>
+                <div class="flex items-center gap-5 max-lg:flex-col-reverse">
+                    <a href="#" class="font-normal danix_box text-xs text-[#2C2B35] max-w-[374px]"><span
+                            class="text-[#F7F8F8]">Нажимая кнопку вы даете согласие на</span> <span
+                            class="dannix transition-all duration-300">обработку персональных данных</span> <span
+                            class="text-[#F7F8F8]">в соответствии с</span> политикой конфиденциальности</a>
+                    <button type="submit"
+                        class="px-[49px] max-lg:w-full transition-all duration-300 hover:bg-white hover:text-[#43A548] py-3 rounded-[1000px] bg-[#2C2B35] text-[#F7F8F8] font-semibold text-base">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="pb-[120px] max-md:pb-16 bg-[#F7F8F8]">
+        <div class="max-w-[1352px] w-full mx-auto px-5">
+            <h2 class="font-semibold text-[32px] text-[#3D4641] mb-[60px] max-md:mb-[32px]">Ответы на вопросы</h2>
+            <div class="grid grid-cols-1 gap-5">
+                <div class="bg-white py-5 px-10 overflow-hidden max-h-[275px] md:max-h-[220px] h-[70px] md:h-20 rounded-[40px] dropdown transition-all duration-300"
+                    style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="font-semibold max-md:text-sm line-clamp-2 text-xl text-[#3D4641]">С чего начать
+                                работу с 1С-Товары?</h3>
+                            <button
+                                class="dropdownToggleBtn transition-all duration-300 hover:text-[#43A548] text-[#2C2B35]">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M26 17L20 23L14 17" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div>
+                            <p class="font-normal text-sm max-md:text-xs text-[#6F7973]">
+                                Для этого подключите бесплатно новый тариф «1С-Ритейл Чекер».
+                                <br>
+                                <br>
+                                Каждую неделю вам на почту будет приходить письмо с рекомендациями:
+                            </p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за
+                                    пустых полок;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары у вас в избытке, а какие следует отнести к неликвидам;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары стоит пересчитать, чтобы быть уверенным в правильности учета.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white py-5 px-10 overflow-hidden max-h-[275px] md:max-h-[220px] h-[70px] md:h-20 rounded-[40px] dropdown transition-all duration-300"
+                    style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="font-semibold text-xl max-md:text-sm line-clamp-2 text-[#3D4641] ">Как подключить
+                                1С-Ритейл Чекер* и
+                                1С-Товары?</h3>
+                            <button
+                                class="dropdownToggleBtn transition-all duration-300 hover:text-[#43A548] text-[#2C2B35]">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M26 17L20 23L14 17" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div>
+                            <p class="font-normal text-sm max-md:text-xs text-[#6F7973]">
+                                Для этого подключите бесплатно новый тариф «1С-Ритейл Чекер».
+                                <br>
+                                <br>
+                                Каждую неделю вам на почту будет приходить письмо с рекомендациями:
+                            </p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за
+                                    пустых полок;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары у вас в избытке, а какие следует отнести к неликвидам;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары стоит пересчитать, чтобы быть уверенным в правильности учета.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white py-5 px-10 overflow-hidden max-h-[275px] md:max-h-[220px] h-[70px] md:h-20 rounded-[40px] dropdown transition-all duration-300"
+                    style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="font-semibold text-xl max-md:text-sm line-clamp-2 text-[#3D4641] ">Средний чек, о
+                                чем нам может рассказать?
+                            </h3>
+                            <button
+                                class="dropdownToggleBtn transition-all duration-300 hover:text-[#43A548] text-[#2C2B35]">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M26 17L20 23L14 17" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div>
+                            <p class="font-normal text-sm max-md:text-xs text-[#6F7973]">
+                                Для этого подключите бесплатно новый тариф «1С-Ритейл Чекер».
+                                <br>
+                                <br>
+                                Каждую неделю вам на почту будет приходить письмо с рекомендациями:
+                            </p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за
+                                    пустых полок;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары у вас в избытке, а какие следует отнести к неликвидам;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары стоит пересчитать, чтобы быть уверенным в правильности учета.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white py-5 px-10 overflow-hidden max-h-[275px] md:max-h-[220px] h-[70px] md:h-20 rounded-[40px] dropdown transition-all duration-300"
+                    style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="font-semibold text-xl text-[#3D4641] max-md:text-sm line-clamp-2 ">Сценарии
+                                автозаказа сервиса 1С-Товары</h3>
+                            <button
+                                class="dropdownToggleBtn transition-all duration-300 hover:text-[#43A548] text-[#2C2B35]">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M26 17L20 23L14 17" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div>
+                            <p class="font-normal text-sm max-md:text-xs text-[#6F7973]">
+                                Для этого подключите бесплатно новый тариф «1С-Ритейл Чекер».
+                                <br>
+                                <br>
+                                Каждую неделю вам на почту будет приходить письмо с рекомендациями:
+                            </p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за
+                                    пустых полок;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары у вас в избытке, а какие следует отнести к неликвидам;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары стоит пересчитать, чтобы быть уверенным в правильности учета.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white py-5 px-10 overflow-hidden max-h-[275px] md:max-h-[220px] h-[70px] md:h-20 rounded-[40px] dropdown transition-all duration-300"
+                    style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="font-semibold text-xl text-[#3D4641] max-md:text-sm line-clamp-2">Как подключить
+                                1С-Ритейл Чекер* и
+                                1С-Товары?</h3>
+                            <button
+                                class="dropdownToggleBtn transition-all duration-300 hover:text-[#43A548] text-[#2C2B35]">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M26 17L20 23L14 17" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div>
+                            <p class="font-normal text-sm max-md:text-xs text-[#6F7973]">
+                                Для этого подключите бесплатно новый тариф «1С-Ритейл Чекер».
+                                <br>
+                                <br>
+                                Каждую неделю вам на почту будет приходить письмо с рекомендациями:
+                            </p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за
+                                    пустых полок;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары у вас в избытке, а какие следует отнести к неликвидам;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары стоит пересчитать, чтобы быть уверенным в правильности учета.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white py-5 px-10 overflow-hidden max-h-[275px] md:max-h-[220px] h-[70px] md:h-20 rounded-[40px] dropdown transition-all duration-300"
+                    style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <h3 class="font-semibold text-xl text-[#3D4641] max-md:text-sm line-clamp-2">Методы и
+                                формулы расчета торговой наценки
+                            </h3>
+                            <button
+                                class="dropdownToggleBtn transition-all duration-300 hover:text-[#43A548] text-[#2C2B35]">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M26 17L20 23L14 17" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div>
+                            <p class="font-normal text-sm max-md:text-xs text-[#6F7973] mb-5">
+                                Для этого подключите бесплатно новый тариф «1С-Ритейл Чекер».
+                                <br>
+                                <br>
+                                Каждую неделю вам на почту будет приходить письмо с рекомендациями:
+                            </p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за
+                                    пустых полок;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары у вас в избытке, а какие следует отнести к неликвидам;
+                                </li>
+                                <li class="font-normal marker:text-[#6F7973] text-sm max-md:text-xs text-[#6F7973]">
+                                    какие товары стоит пересчитать, чтобы быть уверенным в правильности учета.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-lg:px-5 max-md:flex-col max-lg:pt-3 py-5 px-[113px] rounded-[40px] flex items-center justify-between gap-5 max-md:gap-2.5"
+                    style="
+                background: linear-gradient(178.11deg, #43A548 -147.02%, #52E259 286.68%);
+                box-shadow: 0px 4px 12px 0px #0000000D;
+                ">
+                    <h4 class="font-semibold text-xl max-md:text-sm max-md:text-center text-white">Переходи в раздел
+                        “Как это работает” , что бы получить больше полезной информации</h4>
+                    <button
+                        class="px-[30px] max-md:w-full py-3 bg-[#F7F8F8] rounded-[1000px] text-nowrap font-semibold text-base text-[#43A548] transition-all duration-300 hover:bg-[#2C2B35] hover:text-white">Как
+                        это работает</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-[120px] max-md:pb-16 bg-[#F7F8F8]">
+        <div class="max-w-[1452px] w-full px-[70px] max-md:px-[30px] mx-auto relative">
+            <div class="flex justify-between items-center gap-5 mb-10">
+                <h2 class="title max-md:text-[32px]">База знаний </h2>
+                <button
+                    class="btn py-3 max-md:hidden px-[30px] rounded-[1000px] font-semibold text-base text-[#F7F8F8]">Все
+                    статьи</button>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="min-h-[298px] rounded-[20px] bg-[#FFFFFF] w-full overflow-hidden"
+                            style="box-shadow: 0px 4px 16.8px 0px #0000000D;">
+                            <img src="./img//baza/img1.png" alt="" class="w-full object-cover">
+                            <div class="p-[30px] flex flex-col items-start relative min-h-[158px]">
+                                <h3
+                                    class="font-semibold text-xl text-[#3D4641] transition-all duration-300 hover:text-[#43A548] ">
+                                    Методы и формулы расчета торговой наценки</h3>
+                                <a href="#"
+                                    class="block text-right absolute right-[30px] bottom-[30px] text-[#43A548] transition-all duration-300 hover:text-[#327F36]">Читать
+                                    статью</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="min-h-[298px] rounded-[20px] bg-[#FFFFFF] w-full overflow-hidden"
+                            style="box-shadow: 0px 4px 16.8px 0px #0000000D;">
+                            <img src="./img//baza/img2.png" alt="" class="w-full object-cover">
+                            <div class="p-[30px] flex flex-col items-end relative min-h-[158px]">
+                                <h3
+                                    class="font-semibold text-xl text-[#3D4641] transition-all duration-300 hover:text-[#43A548] ">
+                                    Ассортимент продуктового ассортимента</h3>
+                                <a href="#"
+                                    class="block text-right absolute right-[30px] bottom-[30px] text-[#43A548] transition-all duration-300 hover:text-[#327F36]">Читать
+                                    статью</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="min-h-[298px] rounded-[20px] bg-[#FFFFFF] w-full overflow-hidden"
+                            style="box-shadow: 0px 4px 16.8px 0px #0000000D;">
+                            <img src="./img//baza/img3.png" alt="" class="w-full object-cover">
+                            <div class="p-[30px] flex flex-col items-start relative min-h-[158px]">
+                                <h3
+                                    class="font-semibold text-xl text-[#3D4641] transition-all duration-300 hover:text-[#43A548] ">
+                                    Что такое сезонность продаж</h3>
+                                <a href="#"
+                                    class="block text-right absolute right-[30px] bottom-[30px] text-[#43A548] transition-all duration-300 hover:text-[#327F36]">Читать
+                                    статью</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="min-h-[298px] rounded-[20px] bg-[#FFFFFF] w-full overflow-hidden"
+                            style="box-shadow: 0px 4px 16.8px 0px #0000000D;">
+                            <img src="./img//baza/img1.png" alt="" class="w-full object-cover">
+                            <div class="p-[30px] flex flex-col items-start relative min-h-[158px]">
+                                <h3
+                                    class="font-semibold text-xl text-[#3D4641] transition-all duration-300 hover:text-[#43A548] ">
+                                    Методы и формулы расчета торговой наценки</h3>
+                                <a href="#"
+                                    class="block text-right absolute right-[30px] bottom-[30px] text-[#43A548] transition-all duration-300 hover:text-[#327F36]">Читать
+                                    статью</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="min-h-[298px] rounded-[20px] bg-[#FFFFFF] w-full overflow-hidden"
+                            style="box-shadow: 0px 4px 16.8px 0px #0000000D;">
+                            <img src="./img//baza/img2.png" alt="" class="w-full object-cover">
+                            <div class="p-[30px] flex flex-col items-end relative min-h-[158px]">
+                                <h3
+                                    class="font-semibold text-xl text-[#3D4641] transition-all duration-300 hover:text-[#43A548] ">
+                                    Ассортимент продуктового ассортимента</h3>
+                                <a href="#"
+                                    class="block text-right absolute right-[30px] bottom-[30px] text-[#43A548] transition-all duration-300 hover:text-[#327F36]">Читать
+                                    статью</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="min-h-[298px] rounded-[20px] bg-[#FFFFFF] w-full overflow-hidden"
+                            style="box-shadow: 0px 4px 16.8px 0px #0000000D;">
+                            <img src="./img//baza/img3.png" alt="" class="w-full object-cover">
+                            <div class="p-[30px] flex flex-col items-start relative min-h-[158px]">
+                                <h3
+                                    class="font-semibold text-xl text-[#3D4641] transition-all duration-300 hover:text-[#43A548] ">
+                                    Что такое сезонность продаж</h3>
+                                <a href="#"
+                                    class="block text-right absolute right-[30px] bottom-[30px] text-[#43A548] transition-all duration-300 hover:text-[#327F36]">Читать
+                                    статью</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="swiper-button-next1 max-w-[32px] w-full  md:w-10 absolute max-md:right-0 right-5 text-[#6F7973] transition-all duration-300 hover:text-[#327F36] top-[233px]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 26L23 20L17 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button
+                    class="swiper-button-prev1 max-w-[32px] w-full  md:w-10 absolute left-5 max-md:left-0 text-[#6F7973] transition-all duration-300 hover:text-[#327F36] top-[233px]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23 26L17 20L23 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <button class="btn py-3 w-full px-[30px] rounded-[1000px] font-semibold text-base text-[#F7F8F8]">Все
+                статьи</button>
+        </div>
+    </section>
+
+    <section class="pb-[120px] max-md:pb-16 bg-[#F7F8F8]">
+        <div class="max-w-[1352px] w-full mx-auto px-5 max-md:px-0">
+            <h2 class="mb-[60px] max-md:px-5 max-md:mb-8 max-md:text-xl font-semibold text-[32px] text-[#3D4641]">
+                Компании которые
+                выбирают 1С-Товары</h2>
+            <div class="grid grid-cols-6 gap-[85px] max-lg:gap-10 max-md:hidden items-center">
+                <div class="w-full"><img src="./img/kompaniya/img1.svg" alt="" class="w-full object-cover"></div>
+                <div class="w-full"><img src="./img/kompaniya/img2.svg" alt="" class="w-full object-cover"></div>
+                <div class="w-full"><img src="./img/kompaniya/img3.svg" alt="" class="w-full object-cover"></div>
+                <div class="w-full"><img src="./img/kompaniya/img4.svg" alt="" class="w-full object-cover"></div>
+                <div class="w-full"><img src="./img/kompaniya/img5.svg" alt="" class="w-full object-cover"></div>
+                <div class="w-full"><img src="./img/kompaniya/img6.svg" alt="" class="w-full object-cover"></div>
+            </div>
+            <marquee behavior="scroll" direction="left" class="w-full md:hidden">
+                <div class="flex gap-5">
+                    <img src="./img/kompaniya/img1.svg" alt="" class="w-[250px] object-contain">
+                    <img src="./img/kompaniya/img2.svg" alt="" class="w-[250px] object-contain">
+                    <img src="./img/kompaniya/img3.svg" alt="" class="w-[250px] object-contain">
+                    <img src="./img/kompaniya/img4.svg" alt="" class="w-[250px] object-contain">
+                    <img src="./img/kompaniya/img5.svg" alt="" class="w-[250px] object-contain">
+                    <img src="./img/kompaniya/img6.svg" alt="" class="w-[250px] object-contain">
+                </div>
+            </marquee>
+        </div>
+    </section>
+
+    <footer class="bg-[#2C2B35] pt-10 pb-5">
+        <div class="max-w-[1352px] w-full mx-auto px-5">
+            <div class="flex items-start max-xl:flex-col gap-5 max-md:gap-10 border-b border-[#494949] pb-10 mb-5">
+                <div class="max-w-[613px] max-md:flex max-md:items-start w-full">
+                    <div class="max-md:max-w-[163px]">
+                        <a href="#"
+                            class="max-w-[173px] max-md:text-lg max-md:font-semibold max-md:max-w-[133px]flex items-center flex gap-2.5 font-semibold text-2xl text-white mb-10  w-full max-lg:mr-5">
+                            <img src="./img/header_logo.svg" alt=""
+                                class="w-full max-w-[40px] max-md:max-w-[40px] object-cover">
+                            1С-Товары
+                        </a>
+                        <div class="md:hidden">
+                            <a href="#" class="footer_link font-light text-xs text-white mb-5 block">
+                                Для активации перейдите на <span class="transition-all duration-300">portal.1c.ru</span> или обратитесь к Вашему партнеру 1С.
+                            </a>
+                            <a href="#" class="font-light text-xs text-[#43A548] transition-all duration-300 hover:text-white block">
+                                Инструкция по установке сервиса
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex items-center max-md:flex-col max-md:items-start justify-between gap-5 mb-[52px]">
+                        <div class="">
+                            <h3 class="font-normal max-md:text-xs text-base text-[#919999] mb-4">Линия консультации</h3>
+                            <a href="#" class="font-semibold max-md:text-lg text-2xl text-white leading-[17px] transition-all duration-300 hover:text-[#43A548]">+7(495)-111-00-10</a>
+                        </div>
+                        <div class="">
+                            <h3 class="font-normal max-md:text-xs text-base text-[#919999] mb-4">Наш e-mail</h3>
+                            <a href="#" class="font-semibold max-md:text-lg text-2xl text-white leading-[17px] transition-all duration-300 hover:text-[#43A548]">info@rozn.info</a>
+                        </div>
+                        <button class="btn py-3 max-md:text-xs max-md:px-[34px] px-[30px] rounded-[1000px] font-semibold text-base text-white">Заказать
+                            звонок</button>
+                    </div>
+                    <div class="max-md:hidden">
+                        <a href="#" class="footer_link font-light text-base text-white mb-5 block">
+                            Для активации перейдите на <span class="transition-all duration-300">portal.1c.ru</span> или обратитесь к Вашему партнеру 1С.
+                        </a>
+                        <a href="#" class="font-light text-xs text-[#43A548] transition-all duration-300 hover:text-white block">
+                            Инструкция по установке сервиса
+                        </a>
+                    </div>
+                </div>
+                <div class="max-md:flex-col max-md:gap-8 w-full flex justify-between gap-5 items-start">
+                    <ul class="flex flex-col gap-5 max-md:gap-2.5">
+                        <h2 class="font-semibold text-xl text-white mb-3 max-md:mb-2.5 max-md:text-base">Информация</h2>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">Как это работает</a></li>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">Инструкции</a></li>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">Блог</a></li>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">О нас</a></li>
+                    </ul>
+                    <ul class="flex flex-col gap-5 max-md:gap-2.5 max-w-[340px]">
+                        <h2 class="font-semibold text-xl text-white mb-3 max-md:mb-2.5 max-md:text-base">Продукты</h2>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">1С-Ритейл Чекер Демо</a></li>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">1С-Товары.Тестовый для магазина на 1
+                                месяц</a></li>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">1С-Ритейл Чекер</a></li>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">1С-Товары 300</a></li>
+                        <li><a href="#" class="transition-all duration-300 hover:text-[#43A548] font-normal text-base max-md:text-sm text-white">1С-Товары 30000</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full flex items-center justify-between">
+                <p class="font-normal text-sm max-md:text-xs text-[#919999]">1С-Товары © 2023</p>
+                <p class="font-normal text-sm max-md:text-xs text-[#919999] ">Сайт создан - <a href="#"
+                        class="text-[#43A548] transition-all duration-300 hover:text-white">wtstudio.ru</a></p>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>
 
@@ -657,7 +1368,7 @@
                     spaceBetween: 20,
                 },
             }
-            });
+        });
     </script>
 </body>
 

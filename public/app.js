@@ -26,3 +26,46 @@ hamburger.addEventListener("click", function() {
         hamburger.innerHTML = openIcon; // `false` bo'lganda ochiq ikonka
     }
 });
+
+let dropdown = document.querySelectorAll(".dropdown")
+let dropdownToggleBtn = document.querySelectorAll(".dropdownToggleBtn")
+
+
+if (window.innerWidth > 768) {
+    dropdownToggleBtn.forEach(function (item, index) {
+        item.addEventListener("click", function () {
+            const isOpen = dropdown[index].classList.contains("h-[220px]");
+            
+            // Hammasini yopish
+            dropdown.forEach(function (dropdownItem, i) {
+                dropdown[i].classList.remove("h-[220px]");
+                dropdown[i].classList.add("md:h-20");
+            });
+            
+            // Agar ochiq bo'lsa yopish, aks holda ochish
+            if (!isOpen) {
+                dropdown[index].classList.add("h-[220px]");
+                dropdown[index].classList.remove("md:h-20");
+            }
+        });
+    });
+} else {
+    dropdownToggleBtn.forEach(function (item, index) {
+        item.addEventListener("click", function () {
+            const isOpen = dropdown[index].classList.contains("h-[300px]");
+            
+            // Hammasini yopish
+            dropdown.forEach(function (dropdownItem, i) {
+                dropdown[i].classList.remove("h-[300px]");
+                dropdown[i].classList.add("h-[70px]");
+            });
+            
+            // Agar ochiq bo'lsa yopish, aks holda ochish
+            if (!isOpen) {
+                dropdown[index].classList.add("h-[300px]");
+                dropdown[index].classList.remove("h-[70px]");
+            }
+        });
+    });
+}
+
