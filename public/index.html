@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="py-6 max-md:py-5  bg-[#FFFFFF] relative z-40" style="box-shadow: 0px 4px 24.2px 0px #0000000F;">
+        <div class="max-w-[1352px] w-full mx-auto px-5 flex items-center ">
+            <a href="#"
+                class="flex max-w-[173px] max-md:max-w-[133px]flex items-center gap-2.5 font-semibold text-2xl text-[#2C2B35]  w-full max-lg:mr-5">
+                <img src="./img/header_logo.svg" alt="" class="w-full max-w-[40px] max-md:max-w-[40px] object-cover">
+                1С-Товары
+            </a>
+            <ul class="ml-auto flex items-center gap-7 lg:gap-[51px] max-[835px]:gap-5 max-md:hidden">
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">Как
+                        это работает</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">Инструкции</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">Продукты</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">База
+                        знаний </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">О
+                        нас</a>
+                </li>
+            </ul>
+            <button style="background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);"
+                class="inline-block hover:opacity-50 transition-all duration-300 ml-[51px] rounded-[1000px] px-5 py-2.5 font-semibold text-[#F7F8F8] text-sm max-[835px]:ml-5 max-md:hidden">
+                Вход
+            </button>
+            <button id="hamburger" class="block md:hidden ml-auto hover:opacity-50 transition-all duration-300">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 8.5H21M3 15.5H21" stroke="#2C2B35" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <div id="responsive_nav_list"
+        class="bg-[#F7F8F8] overscroll-y-auto h-full pb-[265px]  w-full md:hidden transition-all duration-300 pt-20 fixed left-0 -top-[110%] z-30">
+        <div class="w-full flex items-center justify-center flex-col">
+            <ul class="flex flex-col items-center gap-[51px]">
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">Как
+                        это работает</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">Инструкции</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">Продукты</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">База
+                        знаний </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="font-normal text-sm text-[#2C2B35] transition-all duration-300 hover:text-[#43A548]">О
+                        нас</a>
+                </li>
+            </ul>
+            <button style="background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);"
+                class="inline-block hover:opacity-50 transition-all duration-300 mt-[51px] rounded-[1000px] px-5 py-2.5 font-semibold text-[#F7F8F8] text-sm ">
+                Вход
+            </button>
+        </div>
+    </div>
+
+    <section class="pt-8 md:pt-[50px] pb-7 md:pb-[60px]">
+        <div class="max-w-[1342px] mx-auto px-5 gap-5 grid  md:grid-cols-2 items-center">
+            <div>
+                <h2
+                    class="font-semibold text-[30px] md:text-[48px] lg:text-[60px] leading-[33px] md:leading-[56px] lg:leading-[66px] text-[#2C2B35] mb-5">
+                    Управление запасами розничного магазина</h2>
+                <p class="text-base md:text-xl leading-[22.3px] md:leading-7 text-[#2C2B35] mb-[30px]">Использование
+                    сервиса 1С-Товары позволяет значительно упростить работу по формированию заявок поставщику.</p>
+                <a href="#"
+                    class="bg-[#43A548] inline-block rounded-[100px] font-bold text-[#F7F8F8] hero-btn leading-[22.3px] py-2.5 px-8">Заказать
+                    демонстрацию</a>
+            </div>
+            <img class="md:ml-auto max-w-[453px] w-full" src="./img/hero/img.svg" alt="img">
+        </div>
+    </section>
+
+    <section class="pt-8 md:pt-[60px] mb-8 md:pb-[50px] bg-[#F7F8F8] ">
+        <div class="max-w-[1342px] mx-auto px-5 grid grid-cols-6 gap-5">
+            <div class="p-5 md:p-10 bg-white rounded-[20px] md:rounded-[40px] col-span-6 md:col-span-3"
+                style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                <div class="flex gap-2.5 items-center mb-4">
+                    <img class="w-10 md:w-[52px]" width="52" src="./img/service/1.png" alt="service img">
+                    <h3 class="font-semibold text-xl md:text-2xl leading-8">Управление запасами</h3>
+                </div>
+                <p
+                    class="text-normal text-xs md:text-base leading-[16.73px] md:leading-[22.3px] text-[#6F7973] mb-5 md:mb-8">
+                    Сервис 1С-Товары позволяет
+                    рассчитать необходимое количество товаров на полках (уровень запасов), помогает организовать систему
+                    контроля за остатками товаров, а также вовремя и в нужном количестве закупать у поставщиков.</p>
+                <a href="#"
+                    class="border border-[#43A548] hover:bg-[#43A548] hover:text-white transition-all inline-block rounded-[100px] font-bold text-[#43A548] leading-[22.3px] py-2.5 px-8">Подробнее</a>
+            </div>
+            <div class="p-5 md:p-10 bg-white rounded-[20px] md:rounded-[40px] col-span-6 md:col-span-3"
+                style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                <div class="flex gap-2.5 items-center mb-4">
+                    <img class="w-10 md:w-[52px]" width="52" src="./img/service/2.png" alt="service img">
+                    <h3 class="font-semibold text-xl md:text-2xl leading-8">Управление запасами</h3>
+                </div>
+                <p
+                    class="text-normal text-xs md:text-base leading-[16.73px] md:leading-[22.3px] text-[#6F7973] mb-5 md:mb-8">
+                    Сервис 1С-Товары позволяет
+                    рассчитать необходимое количество товаров на полках (уровень запасов), помогает организовать систему
+                    контроля за остатками товаров, а также вовремя и в нужном количестве закупать у поставщиков.</p>
+                <a href="#"
+                    class="border border-[#43A548] hover:bg-[#43A548] hover:text-white transition-all inline-block rounded-[100px] font-bold text-[#43A548] leading-[22.3px] py-2.5 px-8">Подробнее</a>
+            </div>
+            <div class="p-5 md:p-10 bg-white rounded-[20px] md:rounded-[40px] col-span-6 md:col-span-3 lg:col-span-2"
+                style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                <div class="flex gap-2.5 items-center mb-4">
+                    <img class="w-10 md:w-[52px]" width="52" src="./img/service/3.png" alt="service img">
+                    <h3 class="font-semibold text-xl md:text-2xl leading-8">Управление запасами</h3>
+                </div>
+                <p
+                    class="text-normal text-xs md:text-base leading-[16.73px] md:leading-[22.3px] text-[#6F7973] mb-5 md:mb-8">
+                    Сервис 1С-Товары позволяет
+                    рассчитать необходимое количество товаров на полках (уровень запасов), помогает организовать систему
+                    контроля за остатками товаров, а также вовремя и в нужном количестве закупать у поставщиков.</p>
+                <a href="#"
+                    class="border border-[#43A548] hover:bg-[#43A548] hover:text-white transition-all inline-block rounded-[100px] font-bold text-[#43A548] leading-[22.3px] py-2.5 px-8">Подробнее</a>
+            </div>
+            <div class="p-5 md:p-10 bg-white rounded-[20px] md:rounded-[40px] col-span-6 md:col-span-3 lg:col-span-2"
+                style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                <div class="flex gap-2.5 items-center mb-4">
+                    <img class="w-10 md:w-[52px]" width="52" src="./img/service/4.png" alt="service img">
+                    <h3 class="font-semibold text-xl md:text-2xl leading-8">Управление запасами</h3>
+                </div>
+                <p
+                    class="text-normal text-xs md:text-base leading-[16.73px] md:leading-[22.3px] text-[#6F7973] mb-5 md:mb-8">
+                    Сервис 1С-Товары позволяет
+                    рассчитать необходимое количество товаров на полках (уровень запасов), помогает организовать систему
+                    контроля за остатками товаров, а также вовремя и в нужном количестве закупать у поставщиков.</p>
+                <a href="#"
+                    class="border border-[#43A548] hover:bg-[#43A548] hover:text-white transition-all inline-block rounded-[100px] font-bold text-[#43A548] leading-[22.3px] py-2.5 px-8">Подробнее</a>
+            </div>
+            <div class="p-5 md:p-10 bg-white rounded-[20px] md:rounded-[40px] col-span-6 md:col-span-3 lg:col-span-2"
+                style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                <div class="flex gap-2.5 items-center mb-4">
+                    <img class="w-10 md:w-[52px]" width="52" src="./img/service/5.png" alt="service img">
+                    <h3 class="font-semibold text-xl md:text-2xl leading-8">Управление запасами</h3>
+                </div>
+                <p
+                    class="text-normal text-xs md:text-base leading-[16.73px] md:leading-[22.3px] text-[#6F7973] mb-5 md:mb-8">
+                    Сервис 1С-Товары позволяет
+                    рассчитать необходимое количество товаров на полках (уровень запасов), помогает организовать систему
+                    контроля за остатками товаров, а также вовремя и в нужном количестве закупать у поставщиков.</p>
+                <a href="#"
+                    class="border border-[#43A548] hover:bg-[#43A548] hover:text-white transition-all inline-block rounded-[100px] font-bold text-[#43A548] leading-[22.3px] py-2.5 px-8">Подробнее</a>
+            </div>
+            <div class="p-5 md:p-10 bg-white rounded-[20px] md:rounded-[40px] col-span-6 md:col-span-3"
+                style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                <div class="flex gap-2.5 items-center mb-4">
+                    <img class="w-10 md:w-[52px]" width="52" src="./img/service/6.png" alt="service img">
+                    <h3 class="font-semibold text-xl md:text-2xl leading-8">Управление запасами</h3>
+                </div>
+                <p
+                    class="text-normal text-xs md:text-base leading-[16.73px] md:leading-[22.3px] text-[#6F7973] mb-5 md:mb-8">
+                    Сервис 1С-Товары позволяет
+                    рассчитать необходимое количество товаров на полках (уровень запасов), помогает организовать систему
+                    контроля за остатками товаров, а также вовремя и в нужном количестве закупать у поставщиков.</p>
+                <a href="#"
+                    class="border border-[#43A548] hover:bg-[#43A548] hover:text-white transition-all inline-block rounded-[100px] font-bold text-[#43A548] leading-[22.3px] py-2.5 px-8">Подробнее</a>
+            </div>
+            <div class="p-5 md:p-10 bg-white rounded-[20px] md:rounded-[40px] col-span-6 md:col-span-3"
+                style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                <div class="flex gap-2.5 items-center mb-4">
+                    <img class="w-10 md:w-[52px]" width="52" src="./img/service/1.png" alt="service img">
+                    <h3 class="font-semibold text-xl md:text-2xl leading-8">Управление запасами</h3>
+                </div>
+                <p
+                    class="text-normal text-xs md:text-base leading-[16.73px] md:leading-[22.3px] text-[#6F7973] mb-5 md:mb-8">
+                    Сервис 1С-Товары позволяет
+                    рассчитать необходимое количество товаров на полках (уровень запасов), помогает организовать систему
+                    контроля за остатками товаров, а также вовремя и в нужном количестве закупать у поставщиков.</p>
+                <a href="#"
+                    class="border border-[#43A548] hover:bg-[#43A548] hover:text-white transition-all inline-block rounded-[100px] font-bold text-[#43A548] leading-[22.3px] py-2.5 px-8">Подробнее</a>
+            </div>
+        </div>
+        <div class="max-w-[1342px] mx-auto rounded-[40px] flex max-sm:flex-col gap-5 items-center p-8 mt-10 max-md:p-5"
+            style="
+        background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);
+        box-shadow: 0px 4px 12px 0px #0000000D;
+        ">
+            <div class="flex items-center">
+                <div class="w-10">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 9.99967V36.6663M20 9.99967H14.1072C13.2389 9.99967 12.4062 9.64849 11.7923 9.02336C11.1783 8.39824 10.8334 7.5504 10.8334 6.66634C10.8334 5.78229 11.1783 4.93444 11.7923 4.30932C12.4062 3.6842 13.2389 3.33301 14.1072 3.33301C18.6905 3.33301 20 9.99967 20 9.99967ZM20 9.99967H25.8929C26.7612 9.99967 27.5939 9.64849 28.2078 9.02336C28.8218 8.39824 29.1667 7.5504 29.1667 6.66634C29.1667 5.78229 28.8218 4.93444 28.2078 4.30932C27.5939 3.6842 26.7612 3.33301 25.8929 3.33301C21.3096 3.33301 20 9.99967 20 9.99967ZM33.3334 18.333V31.333C33.3334 33.1999 33.3334 34.1333 32.9701 34.8463C32.6505 35.4735 32.1405 35.9835 31.5133 36.303C30.8003 36.6663 29.8669 36.6663 28 36.6663L12 36.6663C10.1332 36.6663 9.19978 36.6663 8.48674 36.303C7.85953 35.9834 7.3496 35.4735 7.03002 34.8463C6.66671 34.1333 6.66671 33.1998 6.66671 31.333V18.333M3.33337 12.6663L3.33337 15.6663C3.33337 16.5998 3.33337 17.0665 3.51503 17.423C3.67482 17.7366 3.92979 17.9916 4.24339 18.1514C4.59991 18.333 5.06662 18.333 6.00004 18.333L34 18.333C34.9335 18.333 35.4002 18.333 35.7567 18.1514C36.0703 17.9916 36.3253 17.7366 36.4851 17.423C36.6667 17.0665 36.6667 16.5998 36.6667 15.6663V12.6663C36.6667 11.7329 36.6667 11.2662 36.4851 10.9097C36.3253 10.5961 36.0703 10.3411 35.7567 10.1813C35.4002 9.99968 34.9335 9.99968 34 9.99968L6.00004 9.99967C5.06662 9.99967 4.59991 9.99967 4.24339 10.1813C3.92979 10.3411 3.67482 10.5961 3.51503 10.9097C3.33337 11.2662 3.33337 11.7329 3.33337 12.6663Z"
+                            stroke="#43A548" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <p class=" font-medium text-[#43A548] text-xl max-lg:text-lg max-lg:mr-5 ml-5">Подключи
+                    любой продукт на 1
+                    месяц бесплатно и оцени наши
+                    приемущества</p>
+            </div>
+            <button
+                class="btn ml-auto  py-2.5 px-[30px] rounded-[1000px] font-semibold text-base max-md:text-xs text-[#F7F8F8] max-sm:hidden">Подключитьсейчас</button>
+            <button
+                class="btn block  w-full  py-2.5 px-[30px] rounded-[1000px] font-semibold text-base text-[#F7F8F8] sm:hidden">Подключитьсейчас</button>
+        </div>
+    </section>
+
+    <section class="pb-[120px] max-md:pb-16 bg-[#F7F8F8]">
+        <div class="max-w-[1352px] mx-auto px-5">
+            <h2 class="title mb-[60px]">С нами удобнее</h2>
+            <div class="flex items-center gap-5 max-lg:flex-col">
+                <div style="box-shadow: 0px 4px 12px 0px #0000000D;"
+                    class="p-10 rounded-[40px] lg:max-w-[646px] max-xl:p-7 max-md:p-5">
+                    <h3 class="font-semibold text-2xl text-[#3D4641] text-center mb-10 max-md:text-xl max-md:mb-5">Без
+                        1С-Товары</h3>
+                    <ul class="flex flex-col gap-5">
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#E21B4D"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            Лишний товар складируется и не продается
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#E21B4D"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            Постоянно приходится думать какой продукт будет актуален, а какой стоит выводить из
+                            ассортимента
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#E21B4D"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            Лишний товар складируется и не продается
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#E21B4D"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            Постоянно приходится думать какой продукт будет актуален, а какой стоит выводить из
+                            ассортимента
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#E21B4D"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            Лишний товар складируется и не продается
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#E21B4D"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            Постоянно приходится думать какой продукт будет актуален, а какой стоит выводить из
+                            ассортимента
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#E21B4D"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            Лишний товар складируется и не продается
+                        </li>
+                    </ul>
+                </div>
+                <div style="
+                background: linear-gradient(252.7deg, #E5F6E6 17.34%, #DFF7E0 90.57%);
+                box-shadow: 0px 4px 12px 0px #0000000D;
+                " class="p-10 rounded-[40px] lg:max-w-[646px] max-xl:p-7 max-md:p-5">
+                    <h3 class="font-semibold text-2xl text-[#3D4641] text-center mb-10 max-md:text-xl max-md:mb-5">
+                        Вместе с 1С-Товары</h3>
+                    <ul class="flex flex-col gap-5">
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6L9 17L4 12" stroke="#43A548" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                            Организованная система остатков
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6L9 17L4 12" stroke="#43A548" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                            В магазине есть определенная ассортиментная матрица, поддерживающая актуальный ассортимент
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6L9 17L4 12" stroke="#43A548" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                            Рассчитанный прогноз спроса
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6L9 17L4 12" stroke="#43A548" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                            В магазине есть определенная ассортиментная матрица, поддерживающая актуальный ассортимент
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6L9 17L4 12" stroke="#43A548" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                            Организованная система остатков
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6L9 17L4 12" stroke="#43A548" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                            В магазине есть определенная ассортиментная матрица, поддерживающая актуальный ассортимент
+                        </li>
+                        <li
+                            class="flex items-center gap-5 font-normal text-xl max-xl:text-lg max-md:text-sm text-[#3D4641]">
+                            <div class="w-6">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6L9 17L4 12" stroke="#43A548" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+
+                            Система контроля упущенных продаж
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-[60px]" style="background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);">
+        <div class="max-w-[1452px] w-full px-[70px] mx-auto relative max-md:hidden">
+            <div class="flex justify-between items-center gap-5 mb-10">
+                <h2 class="title">Популярные продукты</h2>
+                <button class="btn py-3 px-[30px] rounded-[1000px] font-semibold text-base text-[#F7F8F8]">Все
+                    продукты</button>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="w-full bg-white p-10 rounded-[40px] max-xl:p-5 max-xl:rounded-[20px]"
+                            style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                            <div class="flex items-center justify-between mb-5">
+                                <h3 class="font-semibold text-xl text-[#2C2B35] max-xl:text-base">1С-Товары 300</h3>
+                                <p
+                                    class="font-semibold max-xl:text-xs text-sm text-[#43A548] py-1 px-2.5 rounded-[100px] border border-[#43A548]">
+                                    400 руб/мес</p>
+                            </div>
+                            <ul class="list-disc pl-5 marker:text-[#838684] mb-5">
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Прогноз спроса с
+                                    использованием сервера прогнозирования (ограничение – 300 товаров)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Контроль товарных
+                                    остатков
+                                    и автоматический <br> заказ товаров (ограничение – 300 товаров)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Анализ работы
+                                    розничного
+                                    магазина или сети магазинов</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Рекомендации по
+                                    управлению
+                                    ассортиментом (1С-Ритейл Чекер)</li>
+                            </ul>
+                            <a href="#"
+                                class="flex items-center justify-end gap-1 font-normal text-sm text-[#43A548] transition-all duration-300 hover:text-[#327F36] ">
+                                Подробнее
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66663 8H13.3333M13.3333 8L9.33329 4M13.3333 8L9.33329 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-full bg-white p-10 rounded-[40px] max-xl:p-5 max-xl:rounded-[20px]"
+                            style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                            <div class="flex items-center justify-between mb-5">
+                                <h3 class="font-semibold text-xl text-[#2C2B35] max-xl:text-base">1С-Товары 30000</h3>
+                                <p
+                                    class="font-semibold max-xl:text-xs text-sm text-[#43A548] py-1 px-2.5 rounded-[100px] border border-[#43A548]">
+                                    1 700 руб/мес</p>
+                            </div>
+                            <ul class="list-disc pl-5 marker:text-[#838684] mb-5">
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Прогноз спроса с
+                                    использованием сервера прогнозирования (ограничение – 30000 товаров)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Контроль товарных
+                                    остатков
+                                    и автоматический заказ товаров (ограничение – 30000 товаров)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Анализ работы
+                                    розничного
+                                    магазина или сети магазинов</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Рекомендации по
+                                    управлению
+                                    ассортиментом (1С-Ритейл Чекер)</li>
+                            </ul>
+                            <a href="#"
+                                class="flex items-center justify-end gap-1 font-normal text-sm text-[#43A548] transition-all duration-300 hover:text-[#327F36] ">
+                                Подробнее
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66663 8H13.3333M13.3333 8L9.33329 4M13.3333 8L9.33329 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-full bg-white p-10 rounded-[40px] max-xl:p-5 max-xl:rounded-[20px]"
+                            style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                            <div class="flex items-center justify-between mb-5">
+                                <h3 class="font-semibold text-xl text-[#2C2B35] max-xl:text-base">1С-Товары</h3>
+                                <p
+                                    class="font-semibold max-xl:text-xs text-sm text-[#43A548] py-1 px-2.5 rounded-[100px] border border-[#43A548]">
+                                    4 500 руб/мес</p>
+                            </div>
+                            <ul class="list-disc pl-5 marker:text-[#838684] mb-5">
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Прогноз спроса с
+                                    использованием сервера прогнозирования</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Контроль товарных
+                                    остатков
+                                    и автоматический заказ товаров</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Анализ работы
+                                    розничного
+                                    магазина или сети магазинов</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Рекомендации по
+                                    управлению
+                                    ассортиментом (1С-Ритейл Чекер)</li>
+                            </ul>
+                            <a href="#"
+                                class="flex items-center justify-end gap-1 font-normal text-sm text-[#43A548] transition-all duration-300 hover:text-[#327F36] ">
+                                Подробнее
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66663 8H13.3333M13.3333 8L9.33329 4M13.3333 8L9.33329 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-full bg-white p-10 rounded-[40px] max-xl:p-5 max-xl:rounded-[20px]"
+                            style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                            <div class="flex items-center justify-between mb-5">
+                                <h3 class="font-semibold text-xl text-[#2C2B35] max-xl:text-base">1С-Товары 300</h3>
+                                <p
+                                    class="font-semibold max-xl:text-xs text-sm text-[#43A548] py-1 px-2.5 rounded-[100px] border border-[#43A548]">
+                                    400 руб/мес</p>
+                            </div>
+                            <ul class="list-disc pl-5 marker:text-[#838684] mb-5">
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Прогноз спроса с
+                                    использованием сервера прогнозирования (ограничение – 300 товаров)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Контроль товарных
+                                    остатков
+                                    и автоматический <br> заказ товаров (ограничение – 300 товаров)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Анализ работы
+                                    розничного
+                                    магазина или сети магазинов</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Рекомендации по
+                                    управлению
+                                    ассортиментом (1С-Ритейл Чекер)</li>
+                            </ul>
+                            <a href="#"
+                                class="flex items-center justify-end gap-1 font-normal text-sm text-[#43A548] transition-all duration-300 hover:text-[#327F36] ">
+                                Подробнее
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66663 8H13.3333M13.3333 8L9.33329 4M13.3333 8L9.33329 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-full bg-white p-10 rounded-[40px] max-xl:p-5 max-xl:rounded-[20px]"
+                            style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                            <div class="flex items-center justify-between mb-5">
+                                <h3 class="font-semibold text-xl text-[#2C2B35] max-xl:text-base">1С-Товары 30000</h3>
+                                <p
+                                    class="font-semibold max-xl:text-xs text-sm text-[#43A548] py-1 px-2.5 rounded-[100px] border border-[#43A548]">
+                                    1 700 руб/мес</p>
+                            </div>
+                            <ul class="list-disc pl-5 marker:text-[#838684] mb-5">
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Прогноз спроса с
+                                    использованием сервера прогнозирования (ограничение – 30000 товаров)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Контроль товарных
+                                    остатков
+                                    и автоматический заказ товаров (ограничение – 30000 товаров)</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Анализ работы
+                                    розничного
+                                    магазина или сети магазинов</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Рекомендации по
+                                    управлению
+                                    ассортиментом (1С-Ритейл Чекер)</li>
+                            </ul>
+                            <a href="#"
+                                class="flex items-center justify-end gap-1 font-normal text-sm text-[#43A548] transition-all duration-300 hover:text-[#327F36] ">
+                                Подробнее
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66663 8H13.3333M13.3333 8L9.33329 4M13.3333 8L9.33329 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-full bg-white p-10 rounded-[40px] max-xl:p-5 max-xl:rounded-[20px]"
+                            style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                            <div class="flex items-center justify-between mb-5">
+                                <h3 class="font-semibold text-xl text-[#2C2B35] max-xl:text-base">1С-Товары</h3>
+                                <p
+                                    class="font-semibold max-xl:text-xs text-sm text-[#43A548] py-1 px-2.5 rounded-[100px] border border-[#43A548]">
+                                    4 500 руб/мес</p>
+                            </div>
+                            <ul class="list-disc list-inside pl-5 marker:text-[#838684] mb-5">
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Прогноз спроса с использованием сервера прогнозирования</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Контроль товарных остатков и автоматический заказ товаров</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Анализ работы розничного магазина или сети магазинов</li>
+                                <li class="font-normal text-sm leading-5 text-[#838684]">Рекомендации по управлению ассортиментом (1С-Ритейл Чекер)</li>
+                            </ul>
+                            
+                            <a href="#"
+                                class="flex items-center justify-end gap-1 font-normal text-sm text-[#43A548] transition-all duration-300 hover:text-[#327F36] ">
+                                Подробнее
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66663 8H13.3333M13.3333 8L9.33329 4M13.3333 8L9.33329 12"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="swiper-button-next1 w-6 absolute right-5 text-[#6F7973] transition-all duration-300 hover:text-[#327F36] top-[233px]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 26L23 20L17 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div
+                    class="swiper-button-prev1 absolute left-5 text-[#6F7973] transition-all duration-300 hover:text-[#327F36] top-[233px]">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23 26L17 20L23 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next1",
+                prevEl: ".swiper-button-prev1",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            }
+            });
+    </script>
+</body>
+
+</html>

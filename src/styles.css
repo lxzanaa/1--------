@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @import url('https://fonts.cdnfonts.com/css/gilroy');
+
+body {
+    font-family: 'Gilroy', sans-serif;
+} */
+
+.btn {
+    background-color: #43A548;
+}
+
+.btn:hover {
+    background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+}
+.title{
+    font-weight: 600;
+    font-size: 28px;
+    color: #2C2B35;
+}
+.mySwiper{
+    position: static !important;
+}
