@@ -1481,6 +1481,10 @@ img{
     max-height: 330px;
   }
 
+  .max-\[375px\]\:max-h-\[300px\] {
+    max-height: 300px;
+  }
+
   .max-\[375px\]\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
