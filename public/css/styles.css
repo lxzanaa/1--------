@@ -1332,6 +1332,10 @@ img{
     max-width: 40px;
   }
 
+  .max-md\:max-w-\[1352px\] {
+    max-width: 1352px;
+  }
+
   .max-md\:flex-col {
     flex-direction: column;
   }
