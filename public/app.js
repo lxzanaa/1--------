@@ -75,13 +75,13 @@ else{
             
             // Hammasini yopish
             dropdown.forEach(function (dropdownItem, i) {
-                dropdown[i].classList.remove("h-[330px]");
+                dropdown[i].classList.remove("h-[300px]");
                 dropdown[i].classList.add("h-[70px]");
             });
             
             // Agar ochiq bo'lsa yopish, aks holda ochish
             if (!isOpen) {
-                dropdown[index].classList.add("h-[330px]");
+                dropdown[index].classList.add("h-[300px]");
                 dropdown[index].classList.remove("h-[70px]");
             }
         });
