@@ -46,3 +46,15 @@ img{
     color: #43A548;
     text-decoration: underline;
 }
+#podrobnoe > svg{
+    transition: all .3s;
+}
+#podrobnoe:hover > svg{
+    transform: translate(5px);
+}
+#podrobnoe > div{
+    transition: all .3s;
+}
+#podrobnoe:hover > div{
+    transform: translate(5px);
+}

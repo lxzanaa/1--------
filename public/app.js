@@ -49,7 +49,7 @@ if (window.innerWidth > 768) {
             }
         });
     });
-} else {
+} else if(window.innerWidth > 375) {
     dropdownToggleBtn.forEach(function (item, index) {
         item.addEventListener("click", function () {
             const isOpen = dropdown[index].classList.contains("h-[300px]");
@@ -63,6 +63,25 @@ if (window.innerWidth > 768) {
             // Agar ochiq bo'lsa yopish, aks holda ochish
             if (!isOpen) {
                 dropdown[index].classList.add("h-[300px]");
+                dropdown[index].classList.remove("h-[70px]");
+            }
+        });
+    });
+}
+else{
+    dropdownToggleBtn.forEach(function (item, index) {
+        item.addEventListener("click", function () {
+            const isOpen = dropdown[index].classList.contains("h-[300px]");
+            
+            // Hammasini yopish
+            dropdown.forEach(function (dropdownItem, i) {
+                dropdown[i].classList.remove("h-[330px]");
+                dropdown[i].classList.add("h-[70px]");
+            });
+            
+            // Agar ochiq bo'lsa yopish, aks holda ochish
+            if (!isOpen) {
+                dropdown[index].classList.add("h-[330px]");
                 dropdown[index].classList.remove("h-[70px]");
             }
         });
