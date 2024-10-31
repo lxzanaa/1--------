@@ -24,9 +24,6 @@ a{
     font-size: 28px;
     color: #2C2B35;
 }
-.mySwiper{
-    position: static !important;
-}
 .description:hover > span{
     color: #327F36;
 }
